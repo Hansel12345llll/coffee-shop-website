@@ -1,0 +1,1017 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+   font-size: 75%;
+   scroll-padding-top: 9rem;
+   scroll-behavior: smooth;
+   overflow-x: hidden;
+}
+
+
+
+body{
+    background: #858585;
+    padding: 0px;
+    content:normal;
+}
+section{
+    padding: 70px 7%;
+}
+.header{
+    background: #6a6969;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem 6%;
+    border-bottom: #858585;
+    position: fixed;
+    top: 0; left: 0; right: 0; 
+    z-index: 1000;
+}
+.header .logo img{
+    height: 7.5rem;
+    width: 9rem;
+}
+.header .navigation a{
+    color: #fff;
+    font-size:15px;
+    margin: 0 1rem;
+}
+.header .navigation a:hover{
+    color: #634141;
+    border-bottom: .1rem solid #634141;
+    padding-bottom: .5rem;
+}
+.header .register div{
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 2rem
+}
+.header .register div:hover{
+    color: #634141;
+
+}
+
+
+#menu-button{
+    display:none;
+}
+
+
+  
+.home{
+    padding-top: 10rem;
+    text-align: left;
+    overflow-x: hidden;
+}
+.home .homecontent .bagian1 img{
+    align-items: center;
+    width: 100%;
+    border-radius: 90px;
+}
+.home .homecontent .bagian1 {
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    
+}
+.home .homecontent .bagian1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    font-size: 100px;
+}
+.home .homecontent .bagian1 h3{
+    font-size: 40px;
+    color:aliceblue;
+}
+.home .homecontent .bagian1 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    line-height: 2;
+    padding: 5px 0;
+    color: #eee;
+    display: flex;
+
+}
+.home .homecontent .bagian1 .harga{
+    font-size: 30px;
+    color: #eee;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 0;
+}
+.home .homecontent .bagian1 .harga span{
+    font-size: 20px;
+    text-decoration:line-through;
+}
+.home .homecontent .buttons{
+    background-color: chocolate;
+    font-size: 50px;
+    width: 140px;
+    border: 0;
+    background-size: 30px;
+    padding: 12px 10px;
+    margin-left: 50px;
+    
+}
+.home .homecontent .buttons .buy{
+    color: #fff;
+    background-color: chocolate;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+    padding: 20px 15px;
+}
+.home .homecontent .buttons .buy:hover{
+    color: #634141;
+    border-bottom: .1rem solid #634141;
+    padding-bottom: .2rem;
+}
+.home .homecontent .bagian2 a{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+    margin-left: 60px;
+}
+.home .homecontent .bagian1::after{
+    content: '';
+    height: 300px;
+    width: 10px;
+    position: absolute;
+    background: #634141;
+    left: -40px;
+    top: 80px;
+}
+.home .homecontent .bagian2 .imagehome{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    position: relative;
+   flex-basis: 60%;
+   left: 600px;
+   bottom: 400px;
+}
+
+.home .homecontent .bagian2 .imagehome img{
+    width: 45%;
+    clip-path: circle();
+    flex-wrap: 1 30px;
+    align-items: right;
+    display:flex;
+}
+
+.coffee .menukopi{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.coffee .menukopi .menu{
+    padding: 6rem;
+    text-align: center;
+    background-color: #eee;
+    border: var(--border);
+    padding: 1.5 rem;
+    
+}
+.coffee .menukopi .menu img{
+    height: 9rem;
+    clip-path: circle();
+}
+.coffee .menukopi .menu h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.coffee .menukopi .menu p{
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 30px 0;
+}
+.coffee .menukopi .menu .btn{
+    color: #fff;
+    background-color: chocolate;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+    padding: 20px 15px;
+    height: calc(10vh - 1.5rem);
+}
+.coffee .menukopi .menu .btn:hover{
+    color: #634141;
+    border-bottom: .1rem solid #634141;
+    padding-bottom: .2rem;
+}
+.Aboutus h1{
+    text-align: center;
+    color:#fff;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.Aboutus .history{
+    padding: 10px;
+}
+.Aboutus .history h1{
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    background-color: #47222b;
+    padding: 20px 20px 10px 20px;
+    text-align: right;
+    margin-left: 20px;
+}
+.Aboutus .history p{
+    font-size:20px;
+    color: #fff;
+    float: right;
+    width: 55%;
+    padding: 30px 20px 10px 40px;
+    text-align: right;
+  
+}
+.Aboutus .history img{
+    float: left;
+    size: 100%;
+    width: 40%;
+    height: auto;
+    margin-left: 10px;
+}
+.Aboutus .innovation{
+    margin: 20px 0 0 20px;
+    align-items: center;
+    background-color: #634141;
+    padding: 20px;
+    top: 40px;
+}
+.Aboutus .innovation img{
+    float: left;
+    size: 100%;
+    width: 40%;
+    height: auto;
+    margin-top: 80px;
+    margin-right: 750px;
+    width: 100%;
+  
+}
+.Aboutus .innovation h2{
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    margin: 40px 0px 0 400px;
+
+}
+.Aboutus .innovation p{
+    font-size: 20px;
+    color: #eee;
+    align-items: center;
+    padding: 40px 0 0 40px;
+    margin-left: 40px;
+    background-color: #634141;
+}
+.Aboutus .ourteam{
+    margin-top: 40px;
+}
+.Aboutus .ourteam h4{
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    padding: 20px 20px 10px 40px;
+    text-align: center;
+    background-color: #634141
+}
+.Aboutus .ourteam .member{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.Aboutus .ourteam .member .atasan{
+    padding: 6rem;
+    text-align: center;
+    background-color: #eee;
+    border: var(--border);
+    padding: 1.5 rem;
+}
+.Aboutus .ourteam .member img{
+    height: 200px;
+    clip-path:circle();
+    align-items: center;
+}
+.Aboutus .ourteam .member .atasan h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.Aboutus .ourteam .member .atasan p{
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+.event h1{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.event .gambarevent1{
+    padding: 20px;
+    background-color: #474545;
+}
+.event .gambarevent1 h2{
+    align-items: center;
+    text-align: center;
+    color:#eee;
+    margin-left: 70px;
+    font-size: 40px;
+
+}
+.event .gambarevent1 img{
+    width: 100%;
+}
+.event .gambarevent1 p{
+    font-size: 30px;
+    color:#fff;
+
+}
+.event .gambarevent2{
+    padding: 20px;
+    background-color: #474545;
+}
+.event .gambarevent2 h2{
+    align-items: center;
+    text-align: center;
+    color:#eee;
+    margin-left: 70px;
+    font-size: 40px;
+
+}
+.event .gambarevent2 img{
+    width: 100%;
+}
+.event .gambarevent2 p{
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    
+}
+.event .gambarevent3{
+    padding: 20px;
+    background-color: #474545;
+}
+.event .gambarevent3 h2{
+    align-items: center;
+    text-align: center;
+    color:#eee;
+    margin-left: 70px;
+    font-size: 40px;
+
+}
+.event .gambarevent3 img{
+    width: 100%;
+}
+.event .gambarevent3 p{
+    font-size: 30px;
+    color:#fff;
+}
+.event .gambarevent3 h3{
+    font-size: 40px;
+    color: #eee;
+}
+.event .gambarevent2 button{
+    color: #fff;
+    background-color: chocolate;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.registration{
+    background-color: #634141;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 400px;
+    padding: 30px 40px;
+    box-shadow: 0 2px 5px;
+    width: 400px;
+    max-width: 100%;
+    float: center;
+}
+.form{
+    padding: 40px 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.registration .form .inputForm{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.registration .judul{
+    background-color: #634141;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 30px;
+    margin: 10px;
+}
+.registration .judul h1{
+    font-weight: bold;
+    align-items: center;
+}
+.registration .inputForm{
+   margin:10px;
+   justify-content: left;
+   padding: 40px 30px;
+   position: relative;
+   text-align: left;
+   margin: 0 20px 20px 10px;
+}
+.registration .inputForm label{
+    color: #eee;
+    font-size: 20px;
+    
+    margin-bottom: 5px;
+    padding: 20px;
+    display: inline-block;
+}
+.registration .inputForm input{
+ border: 2px;
+ border-radius: 4px;
+font-size: 10px;
+ padding:10px;
+align-items: center;
+text-align: center;
+justify-content: center;
+display: block;
+}
+
+.registration .form .button input{
+    color: #fff;
+    background-color: chocolate;
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: calc(10vh - 1.5rem);
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.registration .form .checkbox{
+    border: 2px;
+    border-radius: 4px;
+   font-size: 10px;
+    padding:10px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   width: 100%;
+}
+.registration .form .checkbox label{
+    font-size: 15px;
+    color: #eee;
+}
+
+
+.footer{
+    background: #634141;
+    text-align: center;
+    align-items: center;
+    padding: 10px 6%;
+    top: 0; left: 0; right: 0; 
+    z-index: 1000;
+    margin: 0;
+    max-width: 100%;
+    margin: auto;
+}
+.footer .foot{
+    padding: 5px 0;
+}
+.footer .foot h3{
+    color: #eee;
+    font-size: 15px;
+}
+.footer .foot a{
+    color: #eee;
+    margin: 10px;
+    border-radius: 40%;
+    font-size: 20px;
+    height: 10px;
+    width: 10px;
+
+}
+.footer .bot{
+     color:#eee;
+     font-weight: lighter;
+     padding:5px;
+     font-size: 10px;
+    }
+@media only screen and (max-width:810px){
+    #menu-button{
+        display:inline-block;
+        font-size: 20px;
+    }
+    #menu-button img{
+        padding: 30px;
+    }
+    .header .navigation{
+        position: absolute;
+        top: 100%; right: 0;
+        background: #fff;
+        background: 30rem;
+
+    }
+    .header .navigation{
+        position: absolute;
+        background: #fff;
+        top: 100%; right: -500%;
+        width: 15rem;
+        height: calc(100vh - 9.5rem);
+    }
+    .header .navigation.active{
+        right: 0;
+}
+    .header .navigation a{
+        display: block;
+        background-color: black;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 2rem;
+    }
+    .home{
+   
+        display:contents;
+        
+        align-items: center;
+        margin: 0;
+    }
+    .home .homecontent{
+        max-width: 90%;
+        
+    }
+    .home .homecontent .bagian1 img{
+        align-items: center;
+        width: 70%;
+        border-radius: 90px;
+        align-items: center;
+        padding-bottom: 40px;
+        margin-top:70px;
+        top:70px;
+    }
+    
+    .home .homecontent .bagian1 {
+        flex-basis: 40%;
+        position: relative;
+        margin-left: 10px;
+        
+    }
+    .home .homecontent .bagian1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #eee;
+        font-size: 45px;
+        padding: 10px;
+        position: relative;
+        float: center;
+
+    }
+    .home .homecontent .bagian1 h3{
+        font-size: 40px;
+        color:aliceblue;
+    }
+    .home .homecontent .bagian1 p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        line-height: 2;
+       
+        color: #eee;
+    }
+    .home .homecontent .bagian1 .harga{
+        font-size: 20px;
+        color: #eee;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem 0;
+    }
+    .home .homecontent .bagian1 .harga span{
+        font-size: 10px;
+        text-decoration:line-through;
+    }
+    .home .homecontent .buttons{
+        background-color: chocolate;
+        font-size: 50px;
+        width: 150px;
+        border: 0;
+        background-size: 30px;
+        padding: 12px 10px;
+        margin-left: 20px;
+        
+    }
+    .home .homecontent .buttons .buy{
+        color: #fff;
+        background-color: chocolate;
+        font-size: 20px;
+        font-weight: bolder;
+        cursor: pointer;
+        align-items: center;
+        padding: 20px 15px;
+    }
+    .home .homecontent .buttons .buy:hover{
+        color: #634141;
+        border-bottom: .1rem solid #634141;
+        padding-bottom: .2rem;
+    }
+    .home .homecontent .bagian2 a{
+        font-size: x-large;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        color: white;
+        margin-left: 10px;
+    }
+    .home .homecontent .bagian1::after{
+        content: '';
+        height: 300px;
+        width: 10px;
+        position: absolute;
+        background: #634141;
+        left: -40px;
+        top: 80px;
+    }
+    .home .homecontent .bagian2 .imagehome{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        position: relative;
+       flex-basis: 50%;
+       left: 10px;
+       bottom: 0;
+    }
+    .home .homecontent .bagian2 .imagehome img{
+        width: 50%;
+        clip-path: circle();
+    }
+    
+    .footer{
+        background: #634141;
+        text-align: center;
+        align-items: center;
+        padding: 10px 6%;
+        top: 0; left: 0; right: 100; 
+        z-index: 1000;
+        margin: 0;
+    }
+    .footer .foot{
+        padding: 5px 0;
+    }
+    .footer .foot h3{
+        color: #eee;
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer .foot a{
+        color: #eee;
+        margin: 10px;
+        border-radius: 40%;
+        font-size: 20px;
+        height: 10px;
+        width: 10px;
+    
+    }
+    .footer .bot{
+         color:#eee;
+         font-weight: lighter;
+         padding:5px;
+         font-size: 10px;
+        }
+        .event h1{
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+        .event .gambarevent1{
+            padding: 20px;
+            background-color: #474545;
+        }
+        .event .gambarevent1 h2{
+            align-items: center;
+            text-align: center;
+            color:#eee;
+            margin-left: 10px;
+            font-size: 30px;
+        
+        }
+        .event .gambarevent1 img{
+            width: 100%;
+        }
+        .event .gambarevent1 p{
+            font-size: 20px;
+            color:#fff;
+        
+        }
+        .event .gambarevent2{
+            padding: 20px;
+            background-color: #474545;
+        }
+        .event .gambarevent2 h2{
+            align-items: center;
+            text-align: center;
+            color:#eee;
+            margin-left: 10px;
+            font-size: 20px;
+        
+        }
+        .event .gambarevent2 img{
+            width: 100%;
+        }
+        .event .gambarevent2 p{
+            font-size: 20px;
+            color:#fff;
+            text-align: center;
+            
+        }
+        .event .gambarevent3{
+            padding: 20px;
+            background-color: #474545;
+        }
+        .event .gambarevent3 h2{
+            align-items: center;
+            text-align: center;
+            color:#eee;
+            margin-left: 10px;
+            font-size: 40px;
+        
+        }
+        .event .gambarevent3 img{
+            width: 100%;
+        }
+        .event .gambarevent3 p{
+            font-size: 30px;
+            color:#fff;
+        }
+        .event .gambarevent3 h3{
+            font-size: 40px;
+            color: #eee;
+        }
+        .event .gambarevent2 button{
+            color: #fff;
+            background-color: chocolate;
+            font-size: 20px;
+            font-weight: bolder;
+            cursor: pointer;
+            align-items: center;
+            padding: 20px 15px;
+        }
+        .Aboutus h1{
+            text-align: center;
+            color:#fff;
+            margin-top: 30px;
+            font-size: 50px;
+        }
+        
+        .Aboutus .history{
+            padding: 5px;
+        }
+        .Aboutus .history h1{
+            font-size: 30px;
+            color: aliceblue;
+            align-items: center;
+            background-color: #47222b;
+            padding: 20px 20px 10px 20px;
+            text-align: right;
+            margin-left: 20px;
+        }
+        .Aboutus .history p{
+            font-size:20px;
+            color: #fff;
+            float: center;
+            width: 90%;
+            padding: 30px 5px 5px 0;
+            text-align: center;
+          
+        }
+        .Aboutus .history img{
+          display:none
+        }
+        .Aboutus .innovation{
+            margin: 20px 0 0 20px;
+            align-items: center;
+            background-color: #634141;
+            padding: 20px;
+            top: 40px;
+        }
+        .Aboutus .innovation img{
+            float: left;
+            size: 100%;
+            width: 40%;
+            height: auto;
+            margin-top: 80px;
+            margin-right: 750px;
+            width: 100%;
+          
+        }
+        .Aboutus .innovation h2{
+            font-size: 20px;
+            color: aliceblue;
+            align-items: center;
+            margin: 10px 0px 0 10px;
+        
+        }
+        .Aboutus .innovation p{
+            font-size: 20px;
+            color: #eee;
+            align-items: center;
+            padding: 10px 0 0 10px;
+            margin-left: 5px;
+            background-color: #634141;
+        }
+        .Aboutus .ourteam{
+            margin-top: 40px;
+        }
+        .Aboutus .ourteam h4{
+            font-size: 20px;
+            color: aliceblue;
+            align-items: center;
+            padding: 20px 20px 10px 40px;
+            text-align: center;
+            background-color: #634141
+        }
+        .Aboutus .ourteam .member{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            gap: 1.5rem;
+        }
+        .Aboutus .ourteam .member .atasan{
+            padding: 6rem;
+            text-align: center;
+            background-color: #eee;
+            border: var(--border);
+            padding: 1.5 rem;
+        }
+        .Aboutus .ourteam .member img{
+            height: 200px;
+            clip-path:circle();
+            align-items: center;
+        }
+        .Aboutus .ourteam .member .atasan h3{
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+        
+        }
+        .Aboutus .ourteam .member .atasan p{
+            font-size: 10px;
+            font-weight: lighter;
+            text-align: center;
+        }
+        .registration{
+            background-color: #634141;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 10px;
+            padding:  40px;
+            box-shadow: 0 2px 5px;
+            width: 400px;
+            max-width: 90%;
+        }
+        .form{
+            padding: 40px 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .registration .form .inputForm{
+            margin-bottom: 5px;
+            padding-bottom: 5px;
+            position: relative;
+        }
+        .registration .judul{
+            background-color: #634141;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            color:aliceblue;
+            font-size: 10px;
+            margin: 10px;
+        }
+        .registration .judul h1{
+            font-weight: bold;
+            align-items: center;
+        }
+        .registration .inputForm{
+           margin:10px;
+           justify-content: left;
+           padding: 40px 10px;
+           position: relative;
+           text-align: left;
+           margin: 0px 10px 10px 10px;
+        }
+        .registration .inputForm label{
+            color: #eee;
+            font-size: 10px;
+            
+            margin-bottom: 5px;
+            padding: 10px;
+            display: grid;
+        }
+        .registration .inputForm input{
+         border: 1px;
+         border-radius: 2px;
+        font-size: 5px;
+         padding:10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        }
+        
+        .registration .form .button input{
+            color: #fff;
+            background-color: chocolate;
+            font-size: 15px;
+            font-weight: bolder;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            height: calc(10vh - 1.5rem);
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+            width: 90%;
+        }
+        .registration .form .checkbox{
+            border: 1px;
+            border-radius: 2px;
+           font-size: 10px;
+            padding:10px;
+           align-items: center;
+           text-align: center;
+           justify-content: center;
+           width: 90%;
+        }
+        .registration .form .checkbox label{
+            font-size: 5px;
+            color: #eee;
+        }
+        
+        
+        .footer{
+            background: #634141;
+            text-align: center;
+            align-items: center;
+            padding: 10px 6%;
+            top: 0; left: 0; right: 0; 
+            z-index: 1000;
+            margin: 0;
+            max-width: 100%;
+            margin: auto;
+        }
+        .footer .foot{
+            padding: 5px 0;
+        }
+        .footer .foot h3{
+            color: #eee;
+            font-size: 15px;
+        }
+        .footer .foot a{
+            color: #eee;
+            margin: 10px;
+            border-radius: 40%;
+            font-size: 20px;
+            height: 10px;
+            width: 10px;
+        
+        }
+        .footer .bot{
+             color:#eee;
+             font-weight: lighter;
+             padding:5px;
+             font-size: 10px;
+            }
+}
